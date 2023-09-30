@@ -19,7 +19,7 @@
 
 .side-menu-button {
   padding: 15px;
-  border: 1px solid white;
+  border: 0.1px solid white;
   border-radius: 5px;
   text-align: left;
   transition: ease 0.25s all;
@@ -35,10 +35,37 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+
+/* chat box prompt*/
+.chat-input-holder {
+  padding: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.chat-input-textarea {
+  background: #40414f;
+  width: 90%;
+  resize: none;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  border-color: none;
+  /* margin: 12px; */
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+
 .chatbox {
   flex: 1;
   border: 1px solid white;
   background: #444654;
+  position: relative;
 }
 
 .App-logo {
