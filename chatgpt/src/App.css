@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.sidemenu {
+  width: 240px;
+  border: 1px solid white;
 }
 
 .App-logo {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

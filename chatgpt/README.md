@@ -1,1 +1,3 @@
-## chatgpt clone
+# ChatGpt clone
+
+chatgpt folder is frontend
