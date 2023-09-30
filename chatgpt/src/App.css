@@ -13,13 +13,13 @@
 .sidemenu {
   width: 260px;
   padding: 10px;
-  border: 0.1px solid rgb(134, 130, 130);
+  border: 0px solid rgb(134, 130, 130);
   background: #202123;
 }
 
 .side-menu-button {
   padding: 15px;
-  border: 0.1px solid rgb(134, 130, 130);
+  border: 0px solid rgb(134, 130, 130);
   border-radius: 5px;
   text-align: left;
   transition: ease 0.25s all;
@@ -58,9 +58,10 @@
 
 .chatbox {
   flex: 1;
-  border: 0.1px solid rgb(134, 130, 130);
-  background: #444654;
+  border: 0px solid rgb(134, 130, 130);
+  background: #343541;
   position: relative;
+  padding-top: 9px;
 }
 
 .App-logo {
@@ -98,13 +99,13 @@
   text-align: left;
 }
 
-.chat-message {
+.chat-message.chatgpt {
 
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #444654;
 }
 
 .chat-message-center {
-  max-width: 480px;
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
