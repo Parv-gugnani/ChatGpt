@@ -122,6 +122,13 @@
   height: 40px;
 }
 
+.avatar.chatgpt {
+  background: #0da37f;
+  border-radius: 10%;
+  width: 41px;
+  height: 41px;
+}
+
 .message {
   padding-left: 12px;
   padding-right: 12px;
