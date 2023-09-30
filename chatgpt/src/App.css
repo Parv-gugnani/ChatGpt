@@ -10,16 +10,20 @@
   left: 0;
 }
 
+/* :root {
+  --bordercolor: rgb(134, 130, 130);
+} */
+
 .sidemenu {
   width: 260px;
   padding: 10px;
-  border: 1px solid white;
+  border: 0.1px solid rgb(134, 130, 130);
   background: #202123;
 }
 
 .side-menu-button {
   padding: 15px;
-  border: 0.1px solid white;
+  border: 0.1px solid rgb(134, 130, 130);
   border-radius: 5px;
   text-align: left;
   transition: ease 0.25s all;
@@ -63,7 +67,7 @@
 
 .chatbox {
   flex: 1;
-  border: 1px solid white;
+  border: 0.1px solid rgb(134, 130, 130);
   background: #444654;
   position: relative;
 }
@@ -96,4 +100,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.chat-log {
+  padding: 24px;
+  text-align: left;
+  display: flex;
+
+
+}
+
+.chat-message {
+  padding: 12px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chat-message-center .avatar {
+  background: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.message {
+  padding-left: 40px;
+  padding-right: 40px;
 }
